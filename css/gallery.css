@@ -1,0 +1,361 @@
+@font-face{
+    font-family: 'Forum';
+    src:url(../fuentes/Forum-Regular.ttf);
+    font-family: 'Coconat';
+    src:url(../fuentes/Coconat-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+    background-color:#eae6dc;
+}
+
+
+.bg-body-tertiary {
+    background-color:#eae6dc !important;
+}
+
+.navFont{
+    font-family: 'Coconat';
+    font-style:normal;
+    color: #c34726 !important;
+    font-size: 16px;
+    margin-right: 120px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+    height: 115px;
+}
+
+.buttonFont{
+    font-family: 'coconat';
+    color: #eae6dc !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-outline-success{
+    --bs-btn-color: #c34726;
+    --bs-btn-border-color: #c34726;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #823c28;
+    --bs-btn-hover-border-color: #823c28;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn{
+    --bs-btn-bg: #c34726; 
+    border-radius: 50px 50px 50px 0;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.underline{
+    text-decoration:underline !important;
+}
+
+.footer{
+    list-style: none;
+}
+
+footer{
+    height: 160px;
+    background-color: #823c28;
+}
+
+.footerFont{
+    font-family: 'Coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color: #eae6dc;
+    margin: 60px;
+}
+
+.icon{
+    height: 38px;
+    margin-right: 80px;
+}
+
+.footerButton{
+    height: 40px;
+    width: 110px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: #eae6dc;  
+    margin-left: 30px;
+}
+
+.footerButtonText{
+    font-family: 'coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color:  #823c28;
+}
+
+.footerButton:hover{
+    background-color:#f1d4a3;
+    border: 1.5px solid #f1d4a3;
+}
+
+.whiteText{
+    color: #eae6dc !important; 
+    font-size: 14px !important;
+    margin: 60px !important;
+}
+
+.firstImgRow{
+    height:533px;
+    margin-top: 115px;
+    margin-right: 12px;
+    margin-left:10px;
+}
+
+.secondImgRow{
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.thirdImgRow{
+    height:533px;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left:10px;
+
+}
+
+.fourthImgRow{
+    height:510px;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.fifthImgRow{
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.sixthImgRow{
+    height:533px;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left:10px;
+}
+
+.seventhImgRow{
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+
+.eightImgRow{
+    height:586px;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.sofaImg{
+    background-image: url(../images/gallery-1a.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.vineyardImg{
+    background-image: url(../images/gallery-1b.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bedImg{
+    background-image: url(../images/gallery-3a.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.bathImg{
+    background-image: url(../images/gallery-3b.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.roomImg{
+    background-image: url(../images/gallery-6a.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+.weddingImg{
+    background-image: url(../images/gallery-6b.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+}
+
+/*.longImg{
+    height: 537px;
+}
+
+.smallSquareImg{
+    width: 514px;
+}*/
+
+
+.bigSquareImg{
+    width: 100%;
+}
+
+.tallImg{
+    height: 510px;
+}
+
+.bighorizontalImg{
+    background-image: url(../images/gallery-8.jpg);
+    width: 100%;
+    height: 586px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.quoteText{
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    font-size: 26px;
+    color: #eae6dc;
+    text-align:center;
+    line-height: 1.5;
+}
+
+.quoteName{
+    font-family: 'coconat';
+    color: #eae6dc;
+    font-size: 20px;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.servicesButton{
+    height: 50px;
+    width: 180px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: transparent;  
+    margin: 40px;
+    
+}
+
+.servicesButtonText{
+    font-family: 'coconat';
+    color:  #eae6dc;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.servicesButton:hover{
+    background-color: #c34726; 
+    border: 1.5px solid #c34726;
+}
+
+.bookButton{
+    background-color: #eae6dc;
+    height: 50px;
+    width: 180px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 100px;
+    margin-top: 60px;
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+    margin: 40px;
+}
+
+.bookButtonText{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.bookButton:hover{
+    background-color:#f1d4a3;
+}
+
+.redText{
+    color: #c34726 !important; 
+}
+
+.whiteTextButton{
+    color:#eae6dc !important;
+    text-decoration: none !important;
+}
+
+.footer img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.sofaImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.vineyardImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.secondImgRow img:hover{
+    transform: scale(1.02,1.02);
+}
+
+.bedImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.bathImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.fourthImgRow img:hover{
+    transform: scale(1.02,1.02);
+}
+
+.fifthImgRow img:hover{
+    transform: scale(1.02,1.02);
+}
+
+.roomImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.weddingImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.seventhImgRow img:hover{
+    transform: scale(1.02,1.02);
+}

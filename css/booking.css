@@ -1,0 +1,459 @@
+@font-face{
+    font-family: 'Forum';
+    src:url(../fuentes/Forum-Regular.ttf);
+    font-family: 'Coconat';
+    src:url(../fuentes/Coconat-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+    background-color:#eae6dc;
+}
+
+
+.bg-body-tertiary {
+    background-color:#eae6dc !important;
+}
+
+.navFont{
+    font-family: 'Coconat';
+    font-style:normal;
+    color: #c34726 !important;
+    font-size: 16px;
+    margin-right: 120px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+    height: 115px;
+}
+
+.buttonFont{
+    font-family: 'coconat';
+    color: #eae6dc !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-outline-success{
+    --bs-btn-color: #823c28;
+    --bs-btn-border-color: #823c28;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c34726;
+    --bs-btn-hover-border-color: #c34726;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn{
+    --bs-btn-bg: #823c28;
+    border-radius: 50px 50px 50px 0;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+
+.footer{
+    list-style: none;
+}
+
+footer{
+    height: 160px;
+    background-color: #823c28;
+}
+
+.footerFont{
+    font-family: 'Coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color: #eae6dc;
+    margin: 60px;
+}
+
+.icon{
+    height: 38px;
+    margin-right: 80px;
+}
+
+.footerButton{
+    height: 40px;
+    width: 110px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: #eae6dc;  
+    margin-left: 30px;
+}
+
+.footerButtonText{
+    font-family: 'coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color:  #823c28;
+}
+
+.footerButton:hover{
+    background-color:#f1d4a3;
+    border: 1.5px solid #f1d4a3;
+}
+
+.whiteText{
+    color: #eae6dc !important; 
+    font-size: 14px !important;
+    margin: 60px !important;
+}
+
+.banner{
+    margin-top: 115px;
+    background-image: url(../images/booking_banner.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.titleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.roomsSection{
+    background-color:#eae6dc;
+    height: 1720px;
+
+}
+
+.firstrow{
+    margin-top:70px;
+}
+
+.secondrow{
+    margin-top:40px;
+}
+
+.thirdrow{
+    margin-top:40px;
+}
+
+.roomImg{
+    height: 401px;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.roomImg:hover{
+    -webkit-filter: brightness(100%);
+}
+
+.roominfoContainer{
+    background-color:#823c28;
+    height: 120px;
+}
+
+.roomInfo{
+    margin:50px;
+
+}
+
+.roomName{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.priceText{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 16px;
+}
+
+.reserveButton{
+    background-color: #eae6dc;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 60px;
+}
+
+.reserveButton:hover{
+    background-color: #f1d4a3;
+}
+
+.reserveButtonText{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #823c28;
+}
+
+.redText{
+    color: #823c28 !important; 
+    text-decoration: none !important;
+}
+
+.questions{
+    background-color:#c34726;
+    height: 330px;
+}
+
+.contactIcon{
+    height: 100px;
+}
+
+.whiteBodyText{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+.titleRed{
+    font-family:'Coconat';
+    color: #c34726;
+    font-size: 40px;
+    text-align: center;
+    margin-top:165px;
+}
+
+.subtitleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.questionTextSection{
+    padding-left: 200px;
+    padding-right: 170px;
+}
+
+.contactInfo{
+    padding-left: 200px;
+}
+
+.finalCallToAction{
+    background-image: url(../images/booking_end.jpg);
+    width: 100%;
+    height: 646px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.servicesButton{
+    background-color: #eae6dc;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-top: 145px;
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+}
+
+.servicesButton:hover{
+    background-color:#f1d4a3;
+}
+
+.servicesButtonTex{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+}
+
+.redText{
+    color: #c34726 !important; 
+    text-decoration: none !important;
+}
+
+.calendarSection{
+    height: 600px;
+    background-color:#606037;
+}
+
+.calendarTitle{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 36px;
+    margin-top: 65px;
+    margin-left: 195px;
+}
+
+.calendar{
+    margin-left: 70px;
+    height: 390px;
+    width: 645px;
+    background-color:#eae6dc;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.submitButton{
+    background-color: #c34726;
+    height: 38px;
+    width: 160px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.submitButton:hover{
+    color:#c34726;
+    background-color:#eae6dc
+}
+
+.white{
+    color:#eae6dc;
+    font-size: 18px;
+}
+
+.descriptionInfo{
+    color:#eae6dc;
+    font-size: 23px;
+    font-family:"Forum";
+    line-height: 1.2;
+
+}
+
+input{
+    font-family: "Forum";
+    color: #606037;
+    font-size: 22px;
+    border: none;
+    height: 20px;
+    width: 470px;
+    padding: 17px;
+    background-color: #eae6dc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+select{
+    font-family: "Forum";
+    color: #eae6dc !important;
+    font-size: 22px;
+    border: 1.5px solid #eae6dc;
+    height: 35px;
+    width: 135px;
+    padding-left: 4px;
+    background-color: transparent;
+}
+
+.informationSection{
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.buttonsBellow{
+    margin-left:4px;
+    margin-top:30px;
+    margin-right: 20px;
+}
+
+.monthText{
+    font-family: "Forum";
+    color:#c34726;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.redCalendarDays{
+    font-family: "Forum";
+    color:#c34726;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.grayNumbers{
+    font-family: "Forum";
+    color:#939598;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.greenNumbers{
+    font-family: "Forum";
+    color:#606037;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+hr{
+    color:#c34726;
+    size:7px;
+    opacity:100%;
+}
+
+.whiteTextButton{
+    color:#eae6dc !important;
+    text-decoration: none !important;
+}
+
+.optionText{
+    font-family: "Forum";
+    color: #eae6dc !important;
+    font-size: 22px;
+}
+
+option{
+    font-family: "Forum";
+    color: #eae6dc !important;
+    font-size: 22px;
+    border: 1.5px solid #eae6dc;
+    padding: 17px;
+    background-color: transparent;
+
+}
+
+#numberGuest{
+    font-family: "Forum";
+    color: #eae6dc !important;
+    font-size: 22px;
+    border: 1.5px solid #eae6dc;
+    background-color: transparent;
+}
+
+select {
+    font-family: "Forum";
+    color: #eae6dc !important;
+    font-size: 22px;
+    border: 1.5px solid #eae6dc;
+    background-color: transparent;
+}
+
+.contactInfo img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.footer img:hover{
+    transform: scale(1.2,1.2);
+}

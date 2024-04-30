@@ -1,0 +1,367 @@
+@font-face{
+    font-family: 'Forum';
+    src:url(../fuentes/Forum-Regular.ttf);
+    font-family: 'Coconat';
+    src:url(../fuentes/Coconat-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+    background-color:#eae6dc;
+}
+
+
+.bg-body-tertiary {
+    background-color:#eae6dc !important;
+}
+
+.navFont{
+    font-family: 'Coconat';
+    font-style:normal;
+    color: #c34726 !important;
+    font-size: 16px;
+    margin-right: 120px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+    height: 115px;
+}
+
+.buttonFont{
+    font-family: 'coconat';
+    color: #eae6dc !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-outline-success{
+    --bs-btn-color: #c34726;
+    --bs-btn-border-color: #c34726;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #823c28;
+    --bs-btn-hover-border-color: #823c28;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn{
+    --bs-btn-bg: #c34726; 
+    border-radius: 50px 50px 50px 0;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.videoSection{
+    height: 645px;
+    margin-top: 115px;
+    
+}
+
+.video{
+    position: absolute;
+    width: 100%;
+    z-index:-1;
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.callToActionButton{
+    height: 50px;
+    width: 130px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: transparent;  
+    font-family: 'coconat';
+    font-size: 18px;
+    text-decoration: none;
+    color:  #eae6dc;
+    margin-bottom: 110px;
+    
+}
+
+.callToActionButton:hover{
+    background-color: #c34726; 
+    border: 1.5px solid #c34726;
+}
+
+
+.callToAction{
+    font-family: 'coconat';
+    font-size: 18px;
+    text-decoration: none;
+    color:  #eae6dc;
+}
+
+.firstSection{
+    margin-top: 60px;
+}
+
+.infoContainer{
+    height: 400px;
+    padding-top: 80px;
+    padding-left:80px;
+    padding-right: 100px;
+    background-color: #eae6dc;
+}
+
+.imgContainer{
+    height: 400px;
+    padding: 50px;
+}
+
+.titles{
+    font-family:'Coconat';
+    color: #c34726;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.bodyText{
+    font-family:'Forum';
+    color: #606037;
+    font-size: 20px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.contactButton{
+    background-color: #c34726;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 100px;
+}
+
+.contactButton:hover{
+    background-color: #823c28;
+}
+
+.contactButtonText{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #eae6dc;
+}
+
+.logoGoogle{
+    width: 150px;
+}
+
+.squareImg{
+    width: 100%;
+}
+
+.awardsContainer{
+    margin-top: 80px;
+    background-image: url(../images/home_img_2.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 200px;
+}
+
+.titleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.awardsLogoSection{
+    display:flex;
+    justify-content:center;
+
+}
+
+.awardsLogo{
+    height: 80px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+.thirdSection{
+    margin-top: 60px;
+}
+
+.testimonialsContainer{
+    background-image: url(../images/home_img_4.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 200px;
+    height: 550px;
+}
+
+.titleOrange{
+    font-family:'Coconat';
+    color: #c34726;
+    font-size: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.subtitle{
+    font-family:'Coconat';
+    color: #823c28;
+    font-size:20px;
+    margin-bottom: 30px;
+    letter-spacing: .1rem;
+}
+
+.testimonialText{
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #606037;
+    margin-bottom: 30px;
+}
+
+.star{
+    height: 15px;
+}
+
+.testimonialOne{
+    margin-top: 80px;
+    margin-right: 150px;
+}
+
+.testimonialTwo{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.instagramSection{
+    height: 500px;
+}
+
+.post{
+    width: 300px;
+}
+
+.postSection{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.followBtn{
+    background-color: #c34726;
+    width: 160px;
+    height: 40px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.followBtn:hover{
+    background-color: #823c28;
+}
+
+.followBtnText{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #eae6dc;
+}
+
+.instaLogo{
+    width: 25px;
+    margin-left: 8px;
+}
+
+.keyword{
+    font-family: 'Forum';
+    font-size: 25px;
+    color:#823c28;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.houseGraphic{
+    height: 200px;
+    padding-left:25px;
+}
+
+.sloganSection{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.footer{
+    list-style: none;
+}
+
+footer{
+    height: 160px;
+    background-color: #823c28;
+}
+
+.footerFont{
+    font-family: 'Coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color: #eae6dc;
+    margin: 60px;
+}
+
+
+
+.icon{
+    height: 38px;
+    margin-right: 80px;
+}
+
+.footerButton{
+    height: 40px;
+    width: 110px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: #eae6dc;  
+    margin-left: 30px;
+}
+
+.footerButtonText{
+    font-family: 'coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color:  #823c28;
+}
+
+.footerButton:hover{
+    background-color:#f1d4a3;
+    border: 1.5px solid #f1d4a3;
+}
+
+.whiteText{
+    color: #eae6dc !important; 
+    font-size: 14px !important;
+    margin: 60px !important;
+}
+
+.whiteTextButton{
+    color:#eae6dc !important;
+    text-decoration: none !important;
+}
+
+.footer img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.postSection img:hover{
+    transform: scale(1.05,1.05);
+}

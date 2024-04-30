@@ -1,0 +1,316 @@
+@font-face{
+    font-family: 'Forum';
+    src:url(../fuentes/Forum-Regular.ttf);
+    font-family: 'Coconat';
+    src:url(../fuentes/Coconat-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+    background-color:#eae6dc;
+}
+
+
+.bg-body-tertiary {
+    background-color:#eae6dc !important;
+}
+
+.navFont{
+    font-family: 'Coconat';
+    font-style:normal;
+    color: #c34726 !important;
+    font-size: 16px;
+    margin-right: 120px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+    height: 115px;
+}
+
+.buttonFont{
+    font-family: 'coconat';
+    color: #eae6dc !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-outline-success{
+    --bs-btn-color: #c34726;
+    --bs-btn-border-color: #c34726;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #823c28;
+    --bs-btn-hover-border-color: #823c28;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn{
+    --bs-btn-bg: #c34726; 
+    border-radius: 50px 50px 50px 0;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.underline{
+    text-decoration:underline !important;
+}
+
+    
+.banner{
+    background-image: url(../images/about_img_1.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 115px;
+}
+
+.introSection{
+    height: 400px;
+}
+
+.titleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.decoration{
+    height: 125px;
+    align-content:center;
+}
+
+.introText{
+    font-family:'Forum';
+    color: #606037;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.imageSection{
+    height: 420px;
+}
+
+.houseImg{
+    background-image: url(../images/about_img_2.jpg);
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin:0px;
+}
+
+.vineyardImg{
+    background-image: url(../images/about_img_3.jpg);
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin:0px;
+}
+
+.ourStory{
+    margin-top: 40px;
+    height: 600px;
+    margin-bottom: 80px;
+}
+
+.infoContainer{
+    padding-left: 20px;
+    padding-right: 200px;
+}
+
+.imgContainer{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.titles{
+    font-family:'Coconat';
+    color: #c34726;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.bodyText{
+    font-family:'Forum';
+    color: #606037;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+.squareImg{
+    width: 100%;
+}
+
+.titleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.whiteBodyText{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 10px;
+}
+
+.contactInfoSection{
+    height: 600px;
+    background-color:#c34726;
+}
+
+.contactInfo{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.contactIcon{
+    height: 100px;
+}
+
+.mapSection{
+    filter: grayscale(1) sepia(0.07) saturate(10);
+}
+
+/*mapSection{
+    background-image: url(../images/about_img_5.jpg);
+    width: 66.6%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}*/
+
+.heading{
+    margin-top: 45px;
+}
+
+.finalCallToAction{
+    background-image: url(../images/about_img_6.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.servicesButton{
+    background-color: #eae6dc;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 100px;
+    margin-top: 60px;
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+    margin-left: 85px;
+}
+
+.servicesButton:hover{
+    background-color:#f1d4a3;
+}
+
+.servicesButtonTex{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.redText{
+    color: #c34726 !important; 
+}
+
+.whiteText{
+    color: #eae6dc !important; 
+    font-size: 14px !important;
+    margin: 60px !important;
+}
+
+a:-webkit-any-link {
+    color: #eae6dc;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer{
+    list-style: none;
+}
+
+footer{
+    height: 160px;
+    background-color: #823c28;
+}
+
+.footerFont{
+    font-family: 'Coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color: #eae6dc;
+    margin: 60px;
+}
+
+.icon{
+    height: 38px;
+    margin-right: 80px;
+}
+
+.footerButton{
+    height: 40px;
+    width: 110px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: #eae6dc;  
+    margin-left: 30px;
+}
+
+.footerButtonText{
+    font-family: 'coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color:  #823c28;
+}
+
+.footerButton:hover{
+    background-color:#f1d4a3;
+    border: 1.5px solid #f1d4a3;
+}
+
+.whiteTextButton{
+    color:#eae6dc !important;
+    text-decoration: none !important;
+}
+
+.introSection img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.contactInfo img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.footer img:hover{
+    transform: scale(1.2,1.2);
+}

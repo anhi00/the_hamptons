@@ -1,0 +1,445 @@
+@font-face{
+    font-family: 'Forum';
+    src:url(../fuentes/Forum-Regular.ttf);
+    font-family: 'Coconat';
+    src:url(../fuentes/Coconat-Regular.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap');
+
+body{
+    background-color:#eae6dc;
+}
+
+
+.bg-body-tertiary {
+    background-color:#eae6dc !important;
+}
+
+.navFont{
+    font-family: 'Coconat';
+    font-style:normal;
+    color: #c34726 !important;
+    font-size: 16px;
+    margin-right: 120px;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+    height: 115px;
+}
+
+.buttonFont{
+    font-family: 'coconat';
+    color: #eae6dc !important;
+    font-size: 16px;
+}
+
+.nav-item a:hover{
+    text-decoration:underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.btn-outline-success{
+    --bs-btn-color: #c34726;
+    --bs-btn-border-color: #c34726;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #823c28;
+    --bs-btn-hover-border-color: #823c28;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn{
+    --bs-btn-bg: #c34726; 
+    border-radius: 50px 50px 50px 0;
+    margin-right: 20px;
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.underline{
+    text-decoration:underline !important;
+}
+
+.footer{
+    list-style: none;
+}
+
+footer{
+    height: 160px;
+    background-color: #823c28;
+}
+
+.footerFont{
+    font-family: 'Coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color: #eae6dc;
+    margin: 60px;
+}
+
+.icon{
+    height: 38px;
+    margin-right: 80px;
+}
+
+.footerButton{
+    height: 40px;
+    width: 110px;
+    border: 1.5px solid #eae6dc;
+    border-radius: 50px 50px 50px 0;
+    background-color: #eae6dc;  
+    margin-left: 30px;
+}
+
+.footerButtonText{
+    font-family: 'coconat';
+    font-size: 14px;
+    text-decoration: none;
+    color:  #823c28;
+}
+
+.footerButton:hover{
+    background-color:#f1d4a3;
+    border: 1.5px solid #f1d4a3;
+}
+
+.whiteText{
+    color: #eae6dc !important; 
+    font-size: 14px !important;
+    margin: 60px !important;
+}
+
+.banner{
+    margin-top: 115px;
+    background-image: url(../images/services_banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.titleWhite{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.subtitle{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 35px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.amenitiesSection{
+    background-color:#c34726;
+    height: 680px;
+}
+
+.description{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.amenity img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.wineryDescriptionSection img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.iconAmenities{
+    height: 120px;
+    margin-bottom:10px;
+}
+
+
+.firstRow{
+    margin-top:50px;
+}
+
+.amenity{
+    display: flex!important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activitiesSection{
+    background-color:#eae6dc;
+    height: 1230px;
+}
+
+.subtitleRed{
+    font-family:'Coconat';
+    color: #c34726;
+    font-size: 35px;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.firstRowActivities{
+    padding: 50px;
+}
+
+.secondRowActivities{
+    padding-top: 0px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.kayakImg{
+    background-image: url(../images/kayak.jpg);
+    width: 100%;
+    height: 455px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.townImg{
+    background-image: url(../images/town.jpg);
+    width: 100%;
+    height: 455px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.activitieSubtitle{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 22px;
+    margin-top: 400px;
+    margin-left: 20px;
+}
+
+.wineryImg{
+    background-image: url(../images/winery.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.winerySubtitle{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 22px;
+    padding-top: 249px;
+    text-align:center;
+}
+
+.bodyText{
+    font-family:'Forum';
+    color: #606037;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+.wineryDescriptionSection{
+    margin-top:70px;
+}
+
+
+.wineryText{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.specialEventsSection{
+    background-color:#606037;
+    height: 740px;
+}
+
+.eventsImages{
+    margin-top: 30px;
+}
+
+.weddingImg{
+    background-image: url(../images/weddings.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.honeymoonImg{
+    background-image: url(../images/honeymoons.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.anniversaryImg{
+    background-image: url(../images/anniversary.jpg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.paddingImgs{
+    padding: 30px;
+}
+
+.eventsSubtitle{
+    font-family:'Forum';
+    color: #eae6dc;
+    font-size: 22px;
+    text-align:center;
+    margin-top: 40px;
+}
+
+.recommendationSection{
+    height: 1605px;
+}
+
+
+.learnButton{
+    background-color: #c34726;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 100px;
+}
+
+.learnButton:hover{
+    background-color: #823c28;
+}
+
+.learnButtonText{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #eae6dc;
+}
+
+.subtitleRecommendation{
+    font-family:'Coconat';
+    color: #606037;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.longImg{
+    height: 400px;
+}
+
+.longImg2{
+    height: 410px;
+}
+
+.firstReccomendation{
+    margin-top: 70px;
+}
+
+.restaurantImg{
+    padding-left:50px;
+}
+
+.restaurantText{
+    padding-right:130px;
+    padding-left: 100px;
+}
+
+.bookButton{
+    background-color: #eae6dc;
+    padding: 7px 28px;
+    border-radius: 50px 50px 50px 0;
+    border: none;
+    margin-right: 100px;
+    margin-top: 290px;
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+}
+
+.bookButton:hover{
+    background-color:#f1d4a3;
+}
+
+.bookButtonTex{
+    font-family: 'Coconat';
+    font-size: 16px;
+    text-decoration: none;
+    color: #c34726; 
+}
+
+.finalCallToAction{
+    background-image: url(../images/services_ending.jpg);
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.redText{
+    color: #c34726 !important; 
+    text-decoration: none !important;
+}
+
+.finalTitle{
+    font-family:'Coconat';
+    color: #eae6dc;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.whiteTextButton{
+    color:#eae6dc !important;
+    text-decoration: none !important;
+}
+
+.footer img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.weddingImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.honeymoonImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.anniversaryImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.kayakImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.townImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.wineryImg:hover{
+    transform: scale(1.02,1.02);
+}
+
+.restaurantImg img:hover{
+    transform: scale(1.02,1.02);
+}
